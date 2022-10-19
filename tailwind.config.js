@@ -5,6 +5,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'nav': ['"Helvetica Now Micro"'],
+      'body': ['Raleway'],
+      'display': ['"Helvetica Now Display"']
+    },
+    colors: {
+      'primary': '#143159',
+      'secondary': '#2E98D4',
+      'pale': '#8ED6FF',
+      'white': '#ffffff'
+    },
     extend: {},
   },
   plugins: [],
