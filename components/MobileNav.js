@@ -19,13 +19,13 @@ const MobileNav = () => {
   const Panel = ({children}) => {
     if (open === false) {
       return (
-        <div className='md:invisible md:-z-10 drop-shadow-md bg-white -translate-y-48 fixed top-0 left-0 z-50 w-full font-nav uppercase text-xs'>
+        <div className='md:invisible md:-z-10 md:h-0 drop-shadow-md bg-white -translate-y-48 fixed top-0 left-0 z-50 w-full font-nav uppercase text-xs'>
           {children}
         </div>
       )
     } else {
       return (
-        <div className='md:invisible md:-z-10 drop-shadow-md bg-white fixed top-0 left-0 z-50 w-full font-nav uppercase text-xs'>
+        <div className='md:invisible md:-z-10 md:h-0 drop-shadow-md bg-white fixed top-0 left-0 z-50 w-full font-nav uppercase text-xs'>
           {children}
         </div>
       )

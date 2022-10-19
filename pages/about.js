@@ -1,8 +1,16 @@
 import React from 'react'
+import Layout from '../components/Layout'
+import Padding from '../components/Padding'
+
 
 const about = () => {
   return (
-    <div>about</div>
+    <Layout>
+      <Padding>
+        About
+      </Padding>
+    </Layout>
+    
   )
 }
 

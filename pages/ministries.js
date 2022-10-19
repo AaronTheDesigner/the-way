@@ -1,8 +1,14 @@
 import React from 'react'
+import Layout from '../components/Layout'
+import Padding from '../components/Padding'
 
 const ministries = () => {
   return (
-    <div>ministries</div>
+    <Layout>
+      <Padding>
+        Ministries
+      </Padding>
+    </Layout>
   )
 }
 
