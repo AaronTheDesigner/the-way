@@ -17,27 +17,27 @@ const FullNav = () => {
           </div>
           <div className="flex font-nav uppercase">            
               <Link href="/">
-                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-pale transition-colors">
+                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-primary hover:text-white transition-colors">
                   Home
                 </a>
               </Link>
               <Link href="/about">
-                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-pale transition-colors">
+                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-primary hover:text-white transition-colors">
                   About
                 </a>
               </Link>
               <Link href="/beliefs">
-                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-pale transition-colors">
+                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-primary hover:text-white transition-colors">
                   Beliefs
                 </a>
               </Link>
               <Link href="/ministries">
-                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-pale transition-colors">
+                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-primary hover:text-white transition-colors">
                   Ministries
                 </a>
               </Link>
               <Link href="/getinvolved">
-                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-pale transition-colors">
+                <a className="h-full px-6 md:text-xs lg:text-sm grid place-items-center hover:bg-primary hover:text-white transition-colors">
                   Get Involved
                 </a>
               </Link>
