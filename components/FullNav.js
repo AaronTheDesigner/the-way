@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './Container'
+import Container from './Elements/Container'
 import Image from 'next/image'
 import Link from 'next/link'
 import icon from '../public/images/the-way-icon.svg'

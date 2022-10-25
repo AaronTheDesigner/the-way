@@ -1,9 +1,12 @@
 import React from 'react'
-import Container from './Container'
+import Container from './Elements/Container'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <Container>
+      <div>Footer</div>
+    </Container>
+    
   )
 }
 

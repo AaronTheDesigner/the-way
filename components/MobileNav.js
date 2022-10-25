@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Container from './Container';
+import Container from './Elements/Container';
 import icon from '../public/images/the-way-icon.svg'
 import menu from '../public/images/menu.svg'
 
