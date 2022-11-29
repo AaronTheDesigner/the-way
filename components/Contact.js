@@ -12,7 +12,7 @@ const Contact = () => {
     <div className='contact'>
       <Container>
         <Content>
-          <Header name="Join Us" />
+          <Header name="Join Us" color="text-primary" />
           <form action="" className='flex flex-col w-full items-center lg:items-between mt-4'>
             <div className="flex flex-col justify-center w-full items-center md:flex-row">
               {/* left */}

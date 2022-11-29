@@ -8,7 +8,7 @@ const Donate = () => {
   return (
         <div className="flex flex-col mt-20 md:flex-row h-full md:items-center">
           <div className="flex flex-col">
-            <Header name="Contribute"/>
+            <Header name="Contribute" color="text-primary"/>
             <p className="font-body font-medium mt-2 md:mr-5 lg:text-lg lg:mt-4 xl:text-2xl xl:mt-6">
               {content}
             </p>
