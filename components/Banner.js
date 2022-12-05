@@ -6,9 +6,9 @@ const Banner = (props) => {
   return (
     <div className="h-full">
       <div className="relative w-full h-full">
-        <div className="-z-10">
+        <div className="relative w-full h-full -z-10">
           <Image 
-            priority
+            priority={true}
             src={props.pic}
             layout="fill"
             objectFit='contain'

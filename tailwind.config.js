@@ -16,7 +16,13 @@ module.exports = {
       'pale': '#8ED6FF',
       'white': '#ffffff'
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'main': "url('../public/images/the-way-main.svg')",
+        'globe': "url('../public/images/globe.jpg')",
+        'kids-2': "url('../public/images/kids_2.svg')",
+      }
+    },
   },
   plugins: [],
 }

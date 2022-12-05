@@ -26,3 +26,10 @@ input[type=text]:focus, input[type=email]:focus {
     width: 6rem;
     border-radius: 50%;
 }
+
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/globe.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
