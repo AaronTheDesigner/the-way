@@ -11,7 +11,7 @@ const Banner = (props) => {
             priority={true}
             src={props.pic}
             layout="fill"
-            objectFit='contain'
+            objectFit='cover'
             objectPosition='center'
           />
         </div>
