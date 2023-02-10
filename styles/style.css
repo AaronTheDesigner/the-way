@@ -42,7 +42,14 @@ input[type=text]:focus, input[type=email]:focus {
 }
 
 .about-para {
-    background: url('../public/images/sun.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/sun.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.about-forest {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/forest.svg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
