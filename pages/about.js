@@ -23,7 +23,7 @@ import Closing from '../components/Pages/About/Closing'
 const about = () => {
   return (
     <Layout>
-      
+      <Padding>
       <div className='h-screen w-full grid place-items-center about-top'>        
         <Header name="About Us" color="text-primary" className="" />   
       </div>
@@ -39,6 +39,7 @@ const about = () => {
       <Journey/>
       <Forest />
       <Closing/>
+      </Padding>
       
     </Layout>
     
