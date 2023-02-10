@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../../Elements/Header'
 
 const Top = () => {
   return (
-    <div>Top</div>
+        <div className='h-screen w-full grid place-items-center ministries-top'>        
+            <Header name="Ministries" color="text-pale"/>   
+        </div>
   )
 }
 

@@ -54,3 +54,31 @@ input[type=text]:focus, input[type=email]:focus {
     background-repeat: none;
     background-size: cover;
 }
+
+.ministries-top {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/kids.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.ministries-youth {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/kids_3.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.ministries-outreach {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/constr.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.ministries-support {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/hands.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
