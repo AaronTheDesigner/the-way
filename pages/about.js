@@ -19,7 +19,6 @@ const about = () => {
         <Header color="text-primary" name="our heart" />
         <P>The Way International Missions is founded on John 14:6,</P>
       </Content>
-      <Quote />
       
     </Layout>
     
