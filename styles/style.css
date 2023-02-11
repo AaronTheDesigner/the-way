@@ -82,3 +82,17 @@ input[type=text]:focus, input[type=email]:focus {
     background-repeat: none;
     background-size: cover;
 }
+
+.beliefs-top {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/cross.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.inv-top {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/sun.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
