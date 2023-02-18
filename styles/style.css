@@ -90,6 +90,13 @@ input[type=text]:focus, input[type=email]:focus {
     background-size: cover;
 }
 
+.index-top {
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/the-way-main.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .inv-top {
     background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/sun.svg');
     background-position: center;

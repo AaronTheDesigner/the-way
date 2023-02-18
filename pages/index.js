@@ -12,8 +12,10 @@ export default function Home() {
   return (
     <Layout>
       <Padding>
-        <div className='h-screen w-full'>
+        {/* <div className='h-screen w-full'>
           <Banner pic={pic}/>          
+        </div> */}
+        <div className='h-screen w-full grid place-items-center index-top'>  
         </div>
         <About/>
         <Ministries />
