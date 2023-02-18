@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import Padding from '../components/Padding'
 import Block from '../components/Pages/Beliefs/Block'
 import Header from '../components/Elements/Header'
+import Title from '../components/Elements/Title'
 
 const father = {
   bg: 'bg-primary',
@@ -58,7 +59,7 @@ const beliefs = () => {
     <Layout>
       <Padding>
         <div className='h-screen w-full grid place-items-center beliefs-top'>        
-          <Header name="Our Beliefs" color="text-white" className="" />   
+          <Title name="Our Beliefs" color="text-white" className="" />   
         </div>
         <Block bg={father.bg} headerName={father.hn} textColor={father.tc} text={father.text} />
         <Block bg={jesus.bg} headerName={jesus.hn} textColor={jesus.tc} text={jesus.text} />

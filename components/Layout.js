@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <FullNav/>      
       <Container>
         {children}
-        <Contact/>
+        
         <Footer/>
       </Container>
       

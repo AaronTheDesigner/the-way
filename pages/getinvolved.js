@@ -4,6 +4,8 @@ import Layout from '../components/Layout'
 import Header from '../components/Elements/Header'
 import Pray from '../components/Pages/Involved/Pray'
 import Block from '../components/Pages/Beliefs/Block'
+import Contact from '../components/Contact'
+import Title from '../components/Elements/Title'
 
 const join = {
   bg: 'bg-pale',
@@ -17,10 +19,11 @@ const getinvolved = () => {
     <Layout>
       <Padding>
       <div className='h-screen w-full grid place-items-center inv-top'>        
-        <Header name="Get Involved" color="text-white" className="" />   
+        <Title name="Get Involved" color="text-white" className="" />   
       </div>
       <Pray/>
       <Block bg={join.bg} headerName={join.hn} textColor={join.tc} text={join.text} />
+      <Contact />
       </Padding>
     </Layout>
   )
