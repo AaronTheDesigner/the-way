@@ -20,7 +20,7 @@ module.exports = {
       backgroundImage: {
         'main': "url('../public/images/the-way-main.svg')",
         'globe': "url('../public/images/globe.jpg')",
-        'kids-2': "url('../public/images/kids_2.svg')",
+        'kids-2': "url('../public/images/kids_2.jpg')",
       }
     },
   },

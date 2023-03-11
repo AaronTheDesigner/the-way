@@ -5,7 +5,7 @@ import Container from '../../Elements/Container'
 import Content from '../../Elements/Content'
 import Header from '../../Elements/Header'
 import P from '../../Elements/P'
-import pic from '../../../public/images/globe.svg'
+import pic from '../../../public/images/globe.jpg'
 
 
 const content = "The geographical focus of our ministry is in the city of San Ramon, Costa Rica as well as other parts of the country. Our goal is to show people the Way and the Truth, pointing people to Jesus in love by building relationships that last. We believe that the only way to make a difference in people's lives is to understand God's love and mercy and give others the same grace that we have received. It is vital for us to see people with the same compassion that Jesus sees them with."

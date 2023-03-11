@@ -1,7 +1,7 @@
 
 
 .contact {
-    background: url('../public/images/hands.svg');
+    background: url('../public/images/hands.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: none;
@@ -35,56 +35,56 @@ input[type=text]:focus, input[type=email]:focus {
 }
 
 .about-top {
-    background: url('../public/images/hands.svg');
+    background: url('../public/images/hands.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .about-para {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/sun.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/sun.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .about-forest {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/forest.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/forest.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .ministries-top {
-    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/kids.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/kids.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .ministries-youth {
-    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/kids_3.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/kids_3.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .ministries-outreach {
-    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/constr.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/constr.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .ministries-support {
-    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/hands.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/hands.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .beliefs-top {
-    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/cross.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/cross.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -98,7 +98,7 @@ input[type=text]:focus, input[type=email]:focus {
 }
 
 .inv-top {
-    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/sun.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../public/images/sun.jpg');
     background-position: center;
     background-repeat: none;
     background-size: cover;
