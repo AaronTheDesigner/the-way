@@ -1,4 +1,6 @@
-
+html, body {
+    background-color: F2F2F2;
+}
 
 .contact {
     background: url('../public/images/hands.jpg');

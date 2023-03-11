@@ -11,7 +11,9 @@ const content = "The geographical focus of our ministry is in the city of San Ra
 
 const Ministries = () => {
   return (
+    
     <div className='bg-primary md:h-96'>
+        
             <div className="flex flex-col md:flex-row w-full h-full ">
                 {/* pic */}
                 <div className='md:w-4/12 h-48 md:h-full bg-kids-2 bg-no-repeat bg-cover bg-center'>
@@ -21,52 +23,45 @@ const Ministries = () => {
                     /> */}
                 </div>              
                 {/* content */}
-                <div className="md:w-8/12">
-                
-                <div className='flex flex-col md:ml-10'>
-                    <div className=" md:mt-5">
-                        <Header name="Ministries" color="text-white" />
-                    </div>                    
-                    <div className="text-white mb-4">
-                        <P>
-                            {content}
-                        </P>
-                    </div>
-                    <div className="flex uppercase flex-col items-center sm:flex-row flex-wrap justify-evenly text-white mb-4 xl:text-xl">
-                        <ul className=''>
-                            <li>Youth Nights</li>
-                            <li>Vacation Bible School</li>
-                            <li>Childrens Ministry</li>
-                            <li>Drug Addiciton Ministry</li>
-                        </ul>
-                        <ul>
-                            <li>Homeless Ministry</li>
-                            <li>Mercy Ministry</li>
-                            <li>Construction Ministry</li>
-                            <li>Community Ministry</li>
-                        </ul>
-                        <Link href="/ministries">
-                            <button type="submit">
-                                <Button name="More"/>
-                            </button>
-                        </Link>
-                    </div>
-                    <div className='mb-5'>
-                       
-                    </div>
+                <Content>
+                <div className="md:w-8/12">                
+                    <div className='flex flex-col md:ml-10'>
+                        <div className=" md:mt-5">
+                            <Header name="Ministries" color="text-white" />
+                        </div>                    
+                        <div className="text-white mb-4">
+                            <P>
+                                {content}
+                            </P>
+                        </div>
+                        <div className="flex uppercase flex-col items-center sm:flex-row flex-wrap justify-evenly text-white mb-4 xl:text-xl">
+                            <ul className=''>
+                                <li>Youth Nights</li>
+                                <li>Vacation Bible School</li>
+                                <li>Childrens Ministry</li>
+                                <li>Drug Addiciton Ministry</li>
+                            </ul>
+                            <ul>
+                                <li>Homeless Ministry</li>
+                                <li>Mercy Ministry</li>
+                                <li>Construction Ministry</li>
+                                <li>Community Ministry</li>
+                            </ul>
+                            <Link href="/ministries">
+                                <button type="submit">
+                                    <Button name="More"/>
+                                </button>
+                            </Link>
+                        </div>
+                        <div className='mb-5'>                        
+                        </div>
+                    </div>                
                 </div>
-                    
-                    {/* title */}
-
-                    {/* paragraph */}
-
-                    {/* list */}
-
-                    {/* link */}
+                </Content>
                 
-                </div>
             </div>
     </div>
+    
   )
 }
 
