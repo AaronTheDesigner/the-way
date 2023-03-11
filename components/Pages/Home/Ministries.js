@@ -25,11 +25,11 @@ const Ministries = () => {
                 {/* content */}
                 
                 <div className="md:w-8/12">                
-                    <div className='flex flex-col md:ml-10'>
+                    <div className='flex flex-col md:ml-10 px-3 md:px-0'>
                         <div className=" md:mt-5">
                             <Header name="Ministries" color="text-white" />
                         </div>                    
-                        <div className="text-white mb-4 px-3">
+                        <div className="text-white mb-4 ">
                             <P>
                                 {content}
                             </P>
