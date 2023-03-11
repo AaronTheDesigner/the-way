@@ -3,7 +3,7 @@ import React from 'react'
 import Content from '../../Elements/Content'
 import Header from '../../Elements/Header'
 import P from '../../Elements/P'
-
+import Link from 'next/link'
 import pic from '../../../public/images/kids_2.jpg'
 import Button from '../../Elements/Button'
 
@@ -45,9 +45,11 @@ const Ministries = () => {
                             <li>Construction Ministry</li>
                             <li>Community Ministry</li>
                         </ul>
-                        <button type="submit">
-                            <Button name="More"/>
-                        </button>
+                        <Link href="/ministries">
+                            <button type="submit">
+                                <Button name="More"/>
+                            </button>
+                        </Link>
                     </div>
                     <div className='mb-5'>
                        
