@@ -23,13 +23,13 @@ const Ministries = () => {
                     /> */}
                 </div>              
                 {/* content */}
-                <Content>
+                
                 <div className="md:w-8/12">                
                     <div className='flex flex-col md:ml-10'>
                         <div className=" md:mt-5">
                             <Header name="Ministries" color="text-white" />
                         </div>                    
-                        <div className="text-white mb-4">
+                        <div className="text-white mb-4 px-3">
                             <P>
                                 {content}
                             </P>
@@ -57,7 +57,6 @@ const Ministries = () => {
                         </div>
                     </div>                
                 </div>
-                </Content>
                 
             </div>
     </div>
