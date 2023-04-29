@@ -4,7 +4,10 @@ import Button from './Elements/Button'
 
 const content = "By contributing, you will be helping children and families in need. Your suppot will further God’s Kingdom and change many lives. Thank you so much for your generosity."
 
-const Donate = () => {
+const Donate = (props) => {
+
+  const { product } = props;
+
   return (
         <div className="flex flex-col mt-20 md:flex-row h-full md:items-center">
           <div className="flex flex-col">
@@ -16,6 +19,7 @@ const Donate = () => {
           <div className='mt-6 h-full md:mt-0'>
             <Button name="Give" />
           </div>
+          
         </div>   
   )
 }

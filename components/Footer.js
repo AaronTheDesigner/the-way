@@ -16,10 +16,10 @@ const text_two = "The Way International Missions is a Registered 501C3. All dona
 
 const Footer = () => {
   return (
-    <Container>
-        <Content>
-          <div className="flex">
-            <div className="flex flex-col w-1/2">
+    <div>
+        
+          <div className="flex justify-center items-center">
+            <div className="flex flex-col w-1/2 items-center">
             <Link href="/">
                   <a className="md:text-xs lg:text-sm hover:bg-primary hover:text-white transition-colors">
                     Home
@@ -57,13 +57,13 @@ const Footer = () => {
                 </div>
             </div>
           </div>
-        </Content>
+        
         <div className="bg-pale text-primary">
             <P>{text_one}</P>
             <P>{text_two}</P>
           </div>
-    </Container>
-      
+    
+          </div>
     
     
   )
