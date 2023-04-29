@@ -57,11 +57,13 @@ const Footer = () => {
                 </div>
             </div>
           </div>
-        
-        <div className="bg-pale text-primary">
-            <P>{text_one}</P>
-            <P>{text_two}</P>
-          </div>
+          
+            <div className="bg-pale text-primary">
+              <Content>
+                <P><div className="text-sm">{text_one}{text_two}</div></P>
+              </Content>
+            </div>
+         
     
           </div>
     

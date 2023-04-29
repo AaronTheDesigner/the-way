@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from './Elements/Header'
 import Button from './Elements/Button'
+import Sub from './Sub'
+import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js'
 
 const content = "By contributing, you will be helping children and families in need. Your suppot will further God’s Kingdom and change many lives. Thank you so much for your generosity."
 
@@ -16,10 +18,9 @@ const Donate = (props) => {
               {content}
             </p>
           </div>
-          <div className='mt-6 h-full md:mt-0'>
-            <Button name="Give" />
+          <div className='mt-6 h-full md:mt-0 z-10 px-10'>
+            <Sub/>
           </div>
-          
         </div>   
   )
 }
